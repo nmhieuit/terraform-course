@@ -1,11 +1,11 @@
 provider "aws" {
-  access_key = "ACCESS_KEY_HERE"
-  secret_key = "SECRET_KEY_HERE"
-  region     = "us-east-1"
+  access_key = "AKIAXJWHVEVJFJUEVU4J"
+  secret_key = "bOqpPyXqwd4P4EXs82I7gNDfSfQQthtPe1FxDFyY"
+  region     = "ap-southeast-2"
 }
 
 resource "aws_instance" "example" {
-  ami           = "ami-0d729a60"
+  ami           = "ami-0ef66fb3631e10714"
   instance_type = "t2.micro"
 }
 
